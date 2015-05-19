@@ -54,13 +54,13 @@
 			this.txtAddress.Name = "txtAddress";
 			this.txtAddress.Size = new System.Drawing.Size(326, 20);
 			this.txtAddress.TabIndex = 6;
-			this.txtAddress.Text = "http://192.168.1.2:8008/phones";
+			this.txtAddress.Text = "http://127.0.0.1:8008/phones";
 			// 
 			// btnSubmit
 			// 
 			this.btnSubmit.Location = new System.Drawing.Point(711, 12);
 			this.btnSubmit.Name = "btnSubmit";
-			this.btnSubmit.Size = new System.Drawing.Size(286, 20);
+			this.btnSubmit.Size = new System.Drawing.Size(84, 20);
 			this.btnSubmit.TabIndex = 7;
 			this.btnSubmit.Text = "Submit";
 			this.btnSubmit.UseVisualStyleBackColor = true;
@@ -68,17 +68,17 @@
 			// 
 			// txtPhone
 			// 
+			this.txtPhone.Enabled = false;
 			this.txtPhone.Location = new System.Drawing.Point(408, 12);
 			this.txtPhone.Name = "txtPhone";
 			this.txtPhone.Size = new System.Drawing.Size(100, 20);
 			this.txtPhone.TabIndex = 8;
-			this.txtPhone.Text = "77906";
 			// 
 			// lstViewResult
 			// 
 			this.lstViewResult.Location = new System.Drawing.Point(15, 38);
 			this.lstViewResult.Name = "lstViewResult";
-			this.lstViewResult.Size = new System.Drawing.Size(982, 517);
+			this.lstViewResult.Size = new System.Drawing.Size(780, 368);
 			this.lstViewResult.TabIndex = 13;
 			this.lstViewResult.UseCompatibleStateImageBehavior = false;
 			// 
@@ -110,7 +110,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(1009, 567);
+			this.ClientSize = new System.Drawing.Size(812, 418);
 			this.Controls.Add(this.lblCount);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.lstViewResult);

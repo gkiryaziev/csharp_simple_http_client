@@ -54,7 +54,7 @@ namespace RESTfulClient
 			lstViewResult.LargeImageList = imageList_small;
 
 			lstViewResult.View = View.Details;
-			lstViewResult.Columns[0].Width = 100;
+			lstViewResult.Columns[0].Width = 30;
 			lstViewResult.Columns[1].Width = 100;
 			lstViewResult.Columns[2].Width = 200;
 			lstViewResult.Columns[3].Width = 200;
